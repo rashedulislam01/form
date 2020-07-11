@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+	<link rel="icon" href="logoofform.jpg"/>
+</head>
+
+<body>
+	<p title="Form"><h1 align="center"><strong><u>Form</u></strong></h1></p>
+    <hr/>
+    <form action="form.html" autocomplete="off" id="form_one">
+		<fieldset>
+			<legend>Basic Info</legend>
+			<label for="name">Your Name:</label>
+			<input type="text" name="name" id="name" placeholder="Your Name">
+			<br><br>
+			<label for="pass">Password:</label>
+			<input type="Password" name="pass" id="pass" placeholder="Password">
+			<br><br>
+			<label for="pass">Gender:</label>
+			<input type="radio" name="radio" id="radio">
+			<label for="radio">Male</label>
+			<input type="radio" name="radio" id="radio2">
+			<label for="radio2">Female</label>
+			<br><br>
+			<label for="mail">Email:</label>
+			<input type="email" name="mail" id="mail" placeholder="***@gmail.com">
+		</fieldset>
+		<br><br>
+		<fieldset>
+			<legend>Skiles Info</legend>
+			<label>Your Skiles:</label>
+			<input type="checkbox" name="Skills" id="skills1">
+			<label for="skills1">HTML</label>
+			<input type="checkbox" name="Skills" id="skills2">
+			<label for="skills2">CSS</label>
+			<input type="checkbox" name="Skills" id="skills3">
+			<label for="skills3">JS</label>
+			<br><br>		
+			<label for="bdate">Birthdate:</label>
+			<input type="date" name="bdate" id="bdate" value="1998-02-19">
+			<br><br>	
+			<label for="bdate">Birthdate:</label>
+			<select name="date2">
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+			<select name="date2">
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+				<option value="June">June</option>
+				<option value="July">July</option>
+				<option value="August">August</option>
+				<option value="September">September</option>
+				<option value="October">October</option>
+				<option value="November">November</option>
+				<option value="December">December</option>
+			</select>
+			<select name="date3">
+				<option value="2000">2000</option>
+				<option value="2001">2001</option>
+				<option value="2002">2002</option>
+				<option value="2003">2003</option>
+				<option value="2000">2004</option>
+				<option value="2001">2005</option>
+				<option value="2002">2006</option>
+				<option value="2003">2007</option>
+				<option value="2000">2008</option>
+				<option value="2001">2009</option>
+				<option value="2002">2010</option>
+				<option value="2003">2011</option>
+				
+			</select>
+			<br><br>
+			<lable for="age">Age:</label>
+			<input type="number" name="age">
+		</fieldset>
+			<br><br>
+			<label for="phone">Phone:</label>
+			<select name="code">
+				<option value="bd">+880</option>
+				<option value="una">+11</option>
+				<option value="uk">+441</option>
+			</select>
+			<input type="tel" name="tel" id="tel" placeholder="01*********">
+			
+			<br><br>
+			<label for="textarea">About you:</label><br>
+			<textarea type="" name="" id="textarea" cols="40" rows="7"></textarea>
+		
+
+		<br><br>
+        <button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+	
+	</form>
+
+</body>
+
+</html>
